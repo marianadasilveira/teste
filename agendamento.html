@@ -1,0 +1,368 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <title> Agende seu Horário </title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="manifest" href="site.webmanifest">-->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo/loader.png"><!--logo-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="./images/logo/loader.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header-area header-transparent pt-20">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+
+
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index.html"><img src="./images/logo/Design sem nome (1).png" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-10 col-lg-10 col-md-10">
+                            <div class="menu-main d-flex align-items-center justify-content-end">
+
+
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="sobre.html">Sobre</a></li>
+                                            <li><a href="servicos.html">Serviços</a></li>
+                                            <li><a href="parceiros.html">Parceiros</a>
+                                            </li>
+                                            <li class="active"><a href="agendamento.html">Agendamento</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+
+
+        <div class="slider-area2">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap hero-cap2 pt-70 text-center">
+                                <h2>Agende seu Horário</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="d-none d-sm-block mb-5 pb-4">
+                    <div id="map" style="height: 480px; position: relative; overflow: hidden;">
+
+                        <iframe class="mapinha"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117620.03134746273!2d-47.2765835!3d-22.890271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cd9b978c8261%3A0x5198ee5c2991ab1f!2sGabrielle%20Rosa%20Make%20Up%20-%20Sal%C3%A3o%20A%20Baronesa%20Beauty%20Studio!5e0!3m2!1spt-BR!2sbr!4v1699917716824!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div id="googleMap">
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title">Agende seu Horário</h2>
+                    </div>
+
+
+                    <div class="col-lg-8">
+                        <form class="form-contact contact_form" action="contact_process.php" method="post"
+                            id="contactForm" novalidate="novalidate">
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name" id="name" type="text"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Insira o seu nome e sobrenome'"
+                                            placeholder="Insira o seu nome e sobrenome">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="telefone" id="telefone" type="tel"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Insira o seu telefone de contato'"
+                                            placeholder="Insira o seu telefone de contato">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" id="email" type="email"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Insira o seu e-mail de contato'"
+                                            placeholder="Insira o seu e-mail de contato">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="subject" id="subject" type="text"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Insira o assunto (agendamento, dúvidas, sugestões)'"
+                                            placeholder="Insira o assunto (agendamento, dúvidas, sugestões)">
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30"
+                                            rows="9" onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Mensagem (detalhes sobre o assunto)'"
+                                            placeholder=" Mensagem (detalhes sobre o assunto)"></textarea>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--Botões-->
+                            <div class="botoes">
+                                <div class="form-group mt-3 submit">
+                                    <button type="submit" class="button button-contactForm boxed-btn"
+                                        onclick="exibirAlerta()">Enviar</button>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <button type="reset" class="button button-contactForm boxed-btn"
+                                        onclick="exibirAlerta()">Limpar</button>
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+
+
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>R. Americana, 892</h3>
+                                <p>Jardim Imperial - Valinhos, São Paulo, 13276-485</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>+55 (19) 3327-4919</h3>
+                                <p>Terça a Sábado</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-instagram"></i></span>
+                            <div class="media-body">
+                                <h3>@abaronesastudio</h3>
+                                <p>@gabyrosamakeup</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+
+        <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.png">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+
+
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="./images/logo/logo-footer.png" alt=""></a>
+                                </div>
+
+
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p class="info1">Para mais informações, entre em contato com a nossa equipe.</p>
+                                    </div>
+                                </div>
+                                <div class="footer-number">
+                                    <h4><span>+55 </span>(19) 3327-4919</h4>
+                                    <p>@abaronesastudio</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Localização </h4>
+                                    <ul>
+                                        <li><a href="#">Avançado</a></li>
+                                        <li><a href="#">Gerenciamento</a></li>
+                                        <li><a href="#">Corporativo</a></li>
+                                        <li><a href="#">Cliente</a></li>
+                                        <li><a href="#">Informação</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Explore</h4>
+                                    <ul>
+                                        <li><a href="#">Cookies</a></li>
+                                        <li><a href="#">Sobre</a></li>
+                                        <li><a href="#">Política de Privacidade</a></li>
+                                        <li><a href="#">Propriedades</a></li>
+                                        <li><a href="#">Licenças</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p>
+                                    Mariana Araripe 2023 - &copyTodos os direitos reservados;
+                                    <br>
+                                    Trabalho Acadêmico - Sem fins lucrativos
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+
+
+                            <div class="footer-social f-right">
+                                <!--<a href="#"><i class="fab fa-twitter"></i></a>-->
+                                <a href="https://www.facebook.com/abaronesabeautystudio"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <!--<a href="#"><i class="fas fa-globe"></i></a>-->
+                                <a
+                                    href="https://www.instagram.com/abaronesastudio/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <div id="back-top">
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+
+
+
+    <!-- Arquivos JS -->
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Jquery Plugins, main Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
